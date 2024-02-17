@@ -2,7 +2,3 @@
 @tailwind components;
 @tailwind utilities;
 
-@font-face {
-    font-family: "GazellaTeamFont";
-    src: url("../components/fonts/Plain-Medium.otf"),
-}

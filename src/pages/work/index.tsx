@@ -1,13 +1,14 @@
 import Layout from "@/components/Layout";
 import DefaultHero from "@/components/Layout/DefaultHero";
-import Services from "@/components/services";
+import WorkComponent from "@/components/work";
 
 
-export default function Home() {
+
+export default function Work() {
   return (
     <Layout>
-      <DefaultHero section="work" heading="Cases we're proud of" />
-      <Services />
+      <DefaultHero section="work" heading="Partnerships we're proud of" />
+      <WorkComponent />
     </Layout>
   );
 }
