@@ -8,7 +8,7 @@ export default function Work() {
     return (
         <section className="py-[100px] pt-[00px]">
             <div className="w-[94%] mx-auto grid grid-cols-3 gap-[25px]">
-                {workData.map(v => <WorkCard Obj={v} />)}
+                {workData.map(v => <WorkCard key={v} Obj={v} />)}
             </div>
         </section>
     )
